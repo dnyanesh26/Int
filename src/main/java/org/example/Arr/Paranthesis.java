@@ -96,12 +96,7 @@ public class Paranthesis {
                 }
             }
         }
-        if(counter==0) {
-            return true;
-        }
-        else{
-            return false;
-        }
+        return counter == 0;
 
     }
 
@@ -131,11 +126,6 @@ public class Paranthesis {
 
             }
         }
-        if(stack.empty()){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return stack.empty();
     }
 }
